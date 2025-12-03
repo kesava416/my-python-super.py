@@ -1,17 +1,138 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-     <title>My Projects Demo</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Projects — Kesava</title>
+  <style>
+    :root{
+      --accent:#2563eb;
+      --muted:#6b7280;
+      --bg:#f7fbff;
+      --card:#ffffff;
+      --radius:12px;
+      --maxw:1100px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      background:linear-gradient(180deg,var(--bg),#ffffff 40%);
+      color:#0f172a;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+    .wrap{max-width:var(--maxw);margin:36px auto;padding:24px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{
+      width:52px;height:52px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#7c3aed);
+      display:grid;place-items:center;color:white;font-weight:700;font-size:20px;
+      box-shadow:0 6px 18px rgba(37,99,235,0.12);
+    }
+    nav a{margin-left:14px;color:var(--muted);text-decoration:none;font-weight:600}
+    nav a.active{color:var(--accent)}
+    .hero{
+      margin-top:28px;
+      display:grid;grid-template-columns:1fr 360px;gap:28px;align-items:start;
+    }
+    .card{background:var(--card);border-radius:var(--radius);padding:20px;box-shadow:0 8px 30px rgba(12,20,40,0.06)}
+    h1{font-size:30px;margin:0 0 8px 0}
+    p.lead{color:var(--muted);margin:0 0 16px 0;line-height:1.5}
+    .projects-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:18px}
+    .proj{
+      padding:14px;border-radius:10px;border:1px solid #eef2ff;background:linear-gradient(180deg,#fff,#fbfdff);
+    }
+    .proj h3{margin:0 0 8px 0;font-size:18px}
+    .proj p{margin:0;color:var(--muted);font-size:14px}
+    .btn{
+      display:inline-block;padding:10px 14px;border-radius:10px;background:var(--accent);
+      color:white;text-decoration:none;font-weight:700;box-shadow:0 8px 24px rgba(37,99,235,0.12)
+    }
+    .right{
+      position:relative;
+    }
+    .about{
+      font-size:14px;color:var(--muted);line-height:1.6;margin-top:8px;
+    }
+    footer{margin-top:28px;color:var(--muted);font-size:13px;text-align:center;padding-bottom:20px}
+    /* responsive */
+    @media (max-width:900px){
+      .hero{grid-template-columns:1fr;gap:14px}
+      .projects-grid{grid-template-columns:1fr}
+      nav{display:none}
+      header{flex-direction:column;align-items:flex-start;gap:12px}
+    }
+    a.small-link{color:var(--accent);text-decoration:none;font-weight:700}
+  </style>
 </head>
 <body>
-     <h1>Welcome to my projects demo</h1>
-     <p>This is a simple demo page hosted using pages.</p>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo">KP</div>
+        <div>
+          <div style="font-weight:800">Kesava — Projects</div>
+          <div style="color:var(--muted);font-size:13px">Python • SQL • GitHub</div>
+        </div>
+      </div>
 
-     <h2>My Uploaded Projects</h2>
-     <ul>
-         <li>python projects</li>
-         <li>sql projects</li>
-         <li>more coming soon...</li>
-      </ul>
+      <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="python.html">Python</a>
+        <a href="sql.html">SQL</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="card">
+        <h1>Welcome — My Projects Demo</h1>
+        <p class="lead">This site showcases a few projects I uploaded on GitHub. Click any project page to view code and short descriptions. Built and hosted on GitHub Pages.</p>
+
+        <div class="card" style="margin-top:14px;background:linear-gradient(180deg,#fbfdff,#ffffff);box-shadow:none;border:1px dashed #e6eefc">
+          <h3 style="margin:0 0 10px 0">Recent highlights</h3>
+          <div style="display:flex;gap:12px;flex-wrap:wrap">
+            <a class="btn" href="python.html">View Python projects</a>
+            <a class="btn" href="sql.html" style="background:#111827">View SQL files</a>
+          </div>
+        </div>
+
+        <div class="projects-grid">
+          <div class="proj">
+            <h3>Supermarket billing (Python)</h3>
+            <p>Simple supermarket bill generator — demonstrates file IO, arithmetic and user interaction. <a class="small-link" href="python.html">Open</a></p>
+          </div>
+          <div class="proj">
+            <h3>ATM simulator</h3>
+            <p>ATM logic and PIN verification. Click to view the code on GitHub. <a class="small-link" href="python.html">Open</a></p>
+          </div>
+          <div class="proj">
+            <h3>SQL practice</h3>
+            <p>AMAZON1 project — SQL scripts with joins and queries. <a class="small-link" href="sql.html">Open</a></p>
+          </div>
+          <div class="proj">
+            <h3>More coming</h3>
+            <p>I'll add project descriptions, screenshots and demos soon.</p>
+          </div>
+        </div>
+      </div>
+
+      <aside class="right">
+        <div class="card" style="width:100%;max-width:360px;">
+          <h3 style="margin-top:0">About me</h3>
+          <p class="about">Hello — I'm Kesava. I practice Python and SQL. This page links to the source files stored in my GitHub repository.</p>
+          <p style="margin-top:12px"><strong>Repo</strong> <br><a class="small-link" href="https://github.com/kesava416/my-python-super.py" target="_blank">github.com/kesava416/my-python-super.py</a></p>
+          <p style="margin-top:12px"><a class="small-link" href="contact.html">Contact</a></p>
+        </div>
+      </aside>
+    </section>
+
+    <footer>
+      © <strong>kesava416</strong> • Hosted on GitHub Pages • <a href="https://github.com/kesava416" class="small-link" target="_blank">Profile</a>
+    </footer>
+  </div>
 </body>
 </html>
+
+
