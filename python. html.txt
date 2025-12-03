@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Python Projects</title>
+  <style>
+    body { font-family: Georgia, serif; margin:40px; }
+    nav a { margin-right: 18px; text-decoration:none; color:#2b3a67; font-weight:600; }
+    h1 { margin-bottom:6px; }
+    pre { background:#f6f6f6; padding:10px; border-radius:6px; overflow:auto; }
+    .link { margin-top:12px; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="python.html">Python Projects</a>
+    <a href="sql.html">SQL Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <h1>Python Projects</h1>
+  <p>List of uploaded Python files in this repository:</p>
+  <ul>
+    <li><a href="https://github.com/kesava416/my-python-super.py/blob/main/ATM_programing.py" target="_blank">ATM_programing.py</a></li>
+    <li><a href="https://github.com/kesava416/my-python-super.py/blob/main/supermarket%20python.py" target="_blank">supermarket python.py</a></li>
+    <li><a href="https://github.com/kesava416/my-python-super.py/blob/main/Class__int__self.py" target="_blank">Class__int__self.py</a></li>
+    <li><a href="https://github.com/kesava416/my-python-super.py/blob/main/Otp%20verification.py" target="_blank">Otp verification.py</a></li>
+  </ul>
+
+  <p class="link">To view code click the file names (they open on GitHub).</p>
+</body>
+</html>

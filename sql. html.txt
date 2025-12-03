@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>SQL Projects</title>
+  <style>
+    body { font-family: Georgia, serif; margin:40px; }
+    nav a { margin-right: 18px; text-decoration:none; color:#2b3a67; font-weight:600; }
+    h1 { margin-bottom:6px; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="python.html">Python Projects</a>
+    <a href="sql.html">SQL Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <h1>SQL Projects</h1>
+  <p>SQL files uploaded:</p>
+  <ul>
+    <li><a href="https://github.com/kesava416/my-python-super.py/blob/main/AMAZON1%20project.sql" target="_blank">AMAZON1 project.sql</a></li>
+  </ul>
+
+  <p>If you want, I can add short descriptions or sample queries under each file.</p>
+</body>
+</html>

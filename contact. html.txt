@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Contact</title>
+  <style>
+    body { font-family: Georgia, serif; margin:40px; }
+    nav a { margin-right: 18px; text-decoration:none; color:#2b3a67; font-weight:600; }
+    label { display:block; margin-top:12px; }
+    input, textarea { width:380px; padding:8px; margin-top:6px; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="python.html">Python Projects</a>
+    <a href="sql.html">SQL Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <h1>Contact</h1>
+  <p>If someone wants to reach you, put an email or social link here:</p>
+  <p>Email: <strong>kesavaraokesavarao0.com</strong></p>
+  <p>GitHub: <a href="https://github.com/kesava416" target="_blank">https://github.com/kesava416</a></p>
+</body>
+</html>
