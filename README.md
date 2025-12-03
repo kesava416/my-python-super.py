@@ -1,3 +1,3 @@
-# my-python-super market bill genrate
+# my-python-and my sql projects
 
 public
