@@ -1,4 +1,4 @@
-# my-python-and my sql projects
+# python-sql-power-bi. projects
 NAME: peetani kesavarao
 Email:kesavaraokesavarao0@gmail.com
 github:https://github.com/kesava416/my-python-super.py.git
