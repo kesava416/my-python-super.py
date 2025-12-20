@@ -1,3 +1,4 @@
 # my-python-and my sql projects
-
-public
+NAME: peetani ksavarao
+Email:kesavaraokesavarao0@gmail.com
+github:
