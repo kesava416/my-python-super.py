@@ -6,7 +6,7 @@ and analyzing data to generate meaningful insights.
 
 ## Certifications
 ** Python Full Stack Development**
-https://github.com/kesava416/certifications/blob/main/ODIN%20DATA%20SCIENCE%20CERTIFICATE.png
+https://github.com/kesava416/certifications/blob/main/python_full_stack_certificate.pdf.png
 
 **Odin Data Sceince cirtification**
 https://github.com/kesava416/certifications/blob/main/ODIN%20DATA%20SCIENCE%20CERTIFICATE.png
