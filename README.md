@@ -5,7 +5,7 @@ I as passionate about building projects using Python and SQL,
 and analyzing data to generate meaningful insights.
 
 ## Certifications:
-**Deloitte  Data Analysis Cirtification**
+**Deloitte Data Analysis Internship Cirtification**
 https://github.com/kesava416/Professional-Certifications/blob/main/Deloitte_completion_certificate.pdf
 
 **Odin Data Sceince cirtification**
