@@ -4,12 +4,15 @@ Aspiring Data Analyst  Python-MYSQl-powerBi-M.S Excel
 I as passionate about building projects using Python and SQL,
 and analyzing data to generate meaningful insights.
 
-## Certifications
-** Python Full Stack Development**
-https://github.com/kesava416/certifications/blob/main/python_full_stack_certificate.pdf.png
+## Certifications:
+**Deloitte  Data Analysis Cirtification**
+https://github.com/kesava416/Professional-Certifications/blob/main/Deloitte_completion_certificate.pdf
 
 **Odin Data Sceince cirtification**
 https://github.com/kesava416/certifications/blob/main/ODIN%20DATA%20SCIENCE%20CERTIFICATE.png
+
+**Python Full Stack Development**
+https://github.com/kesava416/certifications/blob/main/python_full_stack_certificate.pdf.png
 
 ## SKILLS
 Programming:python
