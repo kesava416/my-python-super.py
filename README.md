@@ -5,6 +5,9 @@ I as passionate about building projects using Python and SQL,
 and analyzing data to generate meaningful insights.
 
 ## Certifications:
+**Labmentix Data Analyst Internship Certification**
+https://github.com/kesava416/Labmentix-Data-Analyst-Internship-Certificate/tree/main
+
 **Deloitte Data Analysis Internship Cirtification**
 https://github.com/kesava416/Professional-Certifications/blob/main/Deloitte_completion_certificate.pdf
 
